@@ -1,0 +1,14 @@
+name = "stm32_gui"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Olivier Henley"]
+maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+
+[[depends-on]]
+stm32f746disco = "0.1.0-dev"
+[origin]
+commit = "f2fa305bbcf5c132e12a2149b1c306212e5fb9d4"
+url = "git+https://github.com/GNAT-Academic-Program/stm32_gui.git"
+

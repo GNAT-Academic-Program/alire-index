@@ -1,0 +1,15 @@
+name = "ada_enet"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Olivier Henley"]
+maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+
+[[depends-on]]
+stm32_hal = "0.1.0-dev"
+
+[origin]
+commit = "530d71a4e2fb2df6fe387d5d1f67f16a720cb778"
+url = "git+https://github.com/GNAT-Academic-Program/ada_enet.git"
+
