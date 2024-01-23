@@ -17,6 +17,6 @@ core = "m4f"
 [configuration.values.stm32_hal]
 device = "stm32f429"
 [origin]
-commit = "e1f4ec1be178d4d39400c035e27d7c7acf31c00e"
+commit = "36de05bf11d2afcd14c7bcbc4b93c44b5fbcfc56"
 url = "git+https://github.com/GNAT-Academic-Program/stm32f429disco.git"
 
