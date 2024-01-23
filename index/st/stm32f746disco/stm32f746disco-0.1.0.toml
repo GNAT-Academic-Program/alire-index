@@ -1,13 +1,16 @@
 name = "stm32f746disco"
-description = "Shiny new project"
-version = "0.1.0-dev"
+description = "Support for the stm32f746disco board"
+version = "0.1.0"
+licenses = "BSD-3-Clause"
 
-authors = ["Olivier Henley"]
+authors = ["AdaCore"]
 maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
 maintainers-logins = ["ohenley"]
+website="https://github.com/GNAT-Academic-Program/stm32f746disco"
+tags = ["embedded", "stm32", "stm32f746disco"]
 
 [[depends-on]]
-stm32_hal = "0.1.0-dev"
+stm32_hal = "0.1.0"
 cortex_m = "0.5.0"
 embedded_components = "0.2.0"
 
@@ -17,6 +20,6 @@ core = "m7f"
 [configuration.values.stm32_hal]
 device = "stm32f746"
 [origin]
-commit = "dfffa01e04388cdcc85b93dc18a0c0af7eb32db7"
+commit = "58c72000a769299df9e279ac8210c5c438227dff"
 url = "git+https://github.com/GNAT-Academic-Program/stm32f746disco.git"
 
