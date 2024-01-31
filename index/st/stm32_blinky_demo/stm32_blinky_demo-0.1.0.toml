@@ -18,6 +18,6 @@ stm32_gui = "0.1.0"
 stm32f429disco = "0.1.0"
 #stm32f746disco = "0.1.0"
 [origin]
-commit = "f895bc4b931fdbdb9dc216dbfc72308f5f014f6d"
+commit = "88178465bcaaed420f6dfc6167b4ca370817b12c"
 url = "git+https://github.com/GNAT-Academic-Program/stm32_blinky_demo.git"
 

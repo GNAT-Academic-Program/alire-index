@@ -10,8 +10,8 @@ executables = ["dns", "echo", "ping", "time"]
 
 [[depends-on]]
 ada_enet = "0.1.0-dev"
-stm32f746disco = "0.1.0-dev"
-stm32_gui = "0.1.0-dev"
+stm32f746disco = "0.1.0"
+stm32_gui = "0.1.0"
 [origin]
 commit = "8d033b9acb9a867dc923f73b0c190538f33c3660"
 url = "git+https://github.com/GNAT-Academic-Program/ada_enet_demos.git"

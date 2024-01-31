@@ -20,6 +20,6 @@ device = { type = "Enum", values = ["stm32f746", "stm32f429"], default = "stm32f
 #cortex_m.core = "m4f"
 
 [origin]
-commit = "3a806b01c01efbda14dfe35009a5c612422c4b9a"
+commit = "e9150be98e1b70d9c2820c82564be34d8b21ae53"
 url = "git+https://github.com/GNAT-Academic-Program/stm32_hal.git"
 

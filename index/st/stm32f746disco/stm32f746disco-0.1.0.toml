@@ -20,6 +20,6 @@ core = "m7f"
 [configuration.values.stm32_hal]
 device = "stm32f746"
 [origin]
-commit = "58c72000a769299df9e279ac8210c5c438227dff"
+commit = "2461d6fc520f1ef501a414389003d4ff53450483"
 url = "git+https://github.com/GNAT-Academic-Program/stm32f746disco.git"
 
