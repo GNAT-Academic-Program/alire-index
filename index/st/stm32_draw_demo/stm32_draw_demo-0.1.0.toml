@@ -18,6 +18,6 @@ stm32_gui = "0.1.0"
 #stm32f429disco = "0.1.0"
 stm32f746disco = "0.1.0"
 [origin]
-commit = "2393d57bc6409b0920647ae1ab2c499b8a14dac3"
+commit = "ca8968a5eda6e73a140fe15c480b3eb1d0ed81e3"
 url = "git+https://github.com/GNAT-Academic-Program/stm32_draw_demo.git"
 
