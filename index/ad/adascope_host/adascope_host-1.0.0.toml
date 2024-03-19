@@ -1,0 +1,20 @@
+name = "adascope_host"
+description = "User Interface portion of the Adascope project"
+version = "1.0.0"
+licenses = "BSD-3-Clause"
+
+authors = ["Jean-Sebastien Demers", "Anne-Sophie Cusson", "Florian Koudjonou", "Basma Kaanane"]
+website = "https://github.com/GNAT-Academic-Program/adascope_host"
+maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+tags = ["oscilloscope", "ui"]
+
+executables = ["user_interface"]
+
+[[depends-on]] 
+aicwl = "3.24.2"   
+
+[origin]
+commit = "21dc0fcebbb8573242d07f608af48c1bbdffdea8"
+url = "git+https://github.com/GNAT-Academic-Program/adascope_host.git"
+
