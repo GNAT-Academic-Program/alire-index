@@ -12,13 +12,14 @@ tags = ["embedded", "stm32"]
 executables = ["stm32_blinky_demo"]
 
 [[depends-on]]
-stm32f429disco = "0.1.0"
+stm32f4xxm_devebox = "0.1.0"
+#stm32f429disco = "0.1.0"
 #stm32f746disco = "0.1.0"
 
 [[pins]]
 gnat_arm_elf = { version='12.2.1' }
 
 [origin]
-commit = "88178465bcaaed420f6dfc6167b4ca370817b12c"
+commit = "555b184eab7d2fb64292ccbaea270dc45035afca"
 url = "git+https://github.com/GNAT-Academic-Program/stm32_blinky_demo.git"
 
