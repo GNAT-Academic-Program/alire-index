@@ -19,6 +19,6 @@ stm32f429disco = "0.1.0"
 gnat_arm_elf = { version='12.2.1' }
 
 [origin]
-commit = "7be86148f02135ff74d4e756d30b550dc4eb6df0"
+commit = "88178465bcaaed420f6dfc6167b4ca370817b12c"
 url = "git+https://github.com/GNAT-Academic-Program/stm32_blinky_demo.git"
 
