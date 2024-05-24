@@ -13,13 +13,30 @@ tags = ["embedded", "stm32", "devices", "drivers", "svd"]
 cortex_m = "0.5.0"
 hal = "~0.3.0"
 
+[configuration]
+auto_gpr_with = true
+disabled = false
+generate_ada = true
+generate_c = true
+generate_gpr = true
+output_dir = "config"
+
 [configuration.variables]
-device = { type = "Enum", values = ["stm32f746", "stm32f429"], default = "stm32f429" }
+[configuration.variables.device]
+default = "stm32f429"
+type = "Enum"
+values = [
+    "stm32f746",
+    "stm32f429",
+    "stm32f407xx",
+]
 
 #[configuration.values]
 #cortex_m.core = "m4f"
+#cortex_m.core = "m7f"
+
 
 [origin]
-commit = "e9150be98e1b70d9c2820c82564be34d8b21ae53"
+commit = "9b39c31986bc4bb152bd9880a4885379722e045b"
 url = "git+https://github.com/GNAT-Academic-Program/stm32_hal.git"
 
