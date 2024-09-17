@@ -31,9 +31,9 @@ values = [
     "stm32f407xx",
 ]
 
-[configuration.values]
+#[configuration.values]
 #cortex_m.core = "m4f"
-cortex_m.core = "m7f"
+#cortex_m.core = "m7f"
 
 
 [origin]
